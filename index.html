@@ -1,7 +1,20 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>Ankh's Projects</title>
+    <link rel="stylesheet" type="text/css" href="style.css"></link>
+    <script type="text/javascript" src="js.js"></script>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <h1>Ankh's Projects</h1>
+    <p id="desc">Select a site from below to load that project</p>
+    <div class="project-box">
+        <div class="project-icon" onclick="window.open('RuneData')" onmouseenter="SetDest('RuneData')" onmouseleave="SetDest('')">
+            <img src="images/runedata.png" height="200" class="dynamic">
+        </div>
+        <div class="project-icon" onclick="window.open('MovieSplits')" onmouseenter="SetDest('MovieSplits')" onmouseleave="SetDest('')">
+             <img src="images/moviesplits.png" height="200" class="dynamic">
+        </div>
+    </div>
 </body>
 </html>
